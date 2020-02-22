@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.2.0](https://www.github.com/yargs/yargs/compare/v15.1.0...v15.2.0) (2020-02-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** yargs-parser@17.0.0 no longer implicitly creates arrays out of boolean
+arguments when duplicates are provided
+
+### Features
+
+* **completion:** takes negated flags into account when boolean-negation is set ([#1509](https://www.github.com/yargs/yargs/issues/1509)) ([7293ad5](https://www.github.com/yargs/yargs/commit/7293ad50d20ea0fb7dd1ac9b925e90e1bd95dea8))
+* **deps:** pull in yargs-parser@17.0.0 ([#1553](https://www.github.com/yargs/yargs/issues/1553)) ([b9409da](https://www.github.com/yargs/yargs/commit/b9409da199ebca515a848489c206b807fab2e65d))
+* deprecateOption ([#1559](https://www.github.com/yargs/yargs/issues/1559)) ([8aae333](https://www.github.com/yargs/yargs/commit/8aae3332251d09fa136db17ef4a40d83fa052bc4))
+* display appropriate $0 for electron apps ([#1536](https://www.github.com/yargs/yargs/issues/1536)) ([d0e4379](https://www.github.com/yargs/yargs/commit/d0e437912917d6a66bb5128992fa2f566a5f830b))
+* introduces strictCommands() subset of strict mode ([#1540](https://www.github.com/yargs/yargs/issues/1540)) ([1d4cca3](https://www.github.com/yargs/yargs/commit/1d4cca395a98b395e6318f0505fc73bef8b01350))
+
+
+### Bug Fixes
+
+* help always displayed for the first command parsed having an async handler ([#1535](https://www.github.com/yargs/yargs/issues/1535)) ([d585b30](https://www.github.com/yargs/yargs/commit/d585b303a43746201b05c9c9fda94a444634df33))
+* **locales:** remove extra space in French for 'default' ([#1564](https://www.github.com/yargs/yargs/issues/1564)) ([ecfc2c4](https://www.github.com/yargs/yargs/commit/ecfc2c474575c6cdbc6d273c94c13181bd1dbaa6))
+* **translations:** fix pluralization in error messages. ([#1557](https://www.github.com/yargs/yargs/issues/1557)) ([94fa38c](https://www.github.com/yargs/yargs/commit/94fa38cbab8d86943e87bf41d368ed56dffa6835))
+* **yargs:** correct support of bundled electron apps ([#1554](https://www.github.com/yargs/yargs/issues/1554)) ([a0b61ac](https://www.github.com/yargs/yargs/commit/a0b61ac21e2b554aa73dbf1a66d4a7af94047c2f))
+
 ## [15.1.0](https://www.github.com/yargs/yargs/compare/v15.0.2...v15.1.0) (2020-01-02)
 
 
